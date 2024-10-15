@@ -8,7 +8,7 @@
     <link href="dist/styles.css" rel="stylesheet">
 </head>
 <body class="bg-backgroundDefault text-defaultText">
-    <section class="container mx-auto py-32">
+    <section class="container mx-auto py-32 px-4">
         <section class="mb-6 flex flex-col gap-2">
             <div class="flex gap-2 items-center">
                 <h3 class="underline text-4xl">MyPlaylist</h3>
@@ -16,7 +16,7 @@
             </div>
             <p class="text-textUndersaturated font-extralight">100 songs, 2h30min</p>
         </section>
-        <section class="flex space-x-4 mb-6 text-sm">
+        <section class="flex flex-col md:flex-row gap-4 mb-6 text-xs md:text-sm ">
             <button class="bg-spotify text-backgroundDefault p-3 rounded-full flex items-center space-x-2">
                 <img src="svg/spotify.svg" alt="Spotify" class="w-6 h-6">
                 <span>Save to Spotify</span>
@@ -30,9 +30,9 @@
                 <span>Save to AppleMusic</span>
             </button>
         </section>
-       <section class="w-10/12 ">
+       <section class="md:w-10/12 w-full">
             <section class="grid grid-cols-5 gap-4 mb-2 pl-8 uppercase text-white/60">
-                <div class="col-span-3">Title</div>
+                <div class=" col-span-2 md:col-span-3">Title</div>
                 <div>Artist</div>
                 <div>Time</div>
             </section>
@@ -42,7 +42,7 @@
                         <div class="absolute left-0 bottom-1/2  translate-y-1/2"><img src="svg/list.svg" alt="List" class="w-5 h-5">
                         </div>
                         <div class="grid grid-cols-5 gap-4 pl-8 items-center">
-                            <div class="flex items-center gap-2 col-span-3">
+                            <div class="flex items-center gap-2 col-span-2 md:col-span-3">
                                 <img src="png/song-1.png" alt="Play" class="w-8 h-auto">
                               <h3 class="line-clamp-1">  I'm Not Sorry I Was Having Fun, I'm Not...</h3>
                             </div>
@@ -55,12 +55,14 @@
                         </div>
                     </div>
                </div>
+
+             
                <div class="border-b border-b-white/15 py-4">
                     <div class="relative ">
                         <div class="absolute left-0 bottom-1/2  translate-y-1/2"><img src="svg/list.svg" alt="List" class="w-5 h-5">
                         </div>
                         <div class="grid grid-cols-5 gap-4 pl-8 items-center">
-                            <div class="flex items-center gap-2 col-span-3">
+                            <div class="flex items-center gap-2 col-span-2 md:col-span-3">
                                 <img src="png/song-1.png" alt="Play" class="w-8 h-auto">
                               <h3 class="line-clamp-1">  I'm Not Sorry I Was Having Fun, I'm Not...</h3>
                             </div>
@@ -73,12 +75,14 @@
                         </div>
                     </div>
                </div>
+
+             
                <div class="border-b border-b-white/15 py-4">
                     <div class="relative ">
                         <div class="absolute left-0 bottom-1/2  translate-y-1/2"><img src="svg/list.svg" alt="List" class="w-5 h-5">
                         </div>
                         <div class="grid grid-cols-5 gap-4 pl-8 items-center">
-                            <div class="flex items-center gap-2 col-span-3">
+                            <div class="flex items-center gap-2 col-span-2 md:col-span-3">
                                 <img src="png/song-1.png" alt="Play" class="w-8 h-auto">
                               <h3 class="line-clamp-1">  I'm Not Sorry I Was Having Fun, I'm Not...</h3>
                             </div>
@@ -91,24 +95,7 @@
                         </div>
                     </div>
                </div>
-               <div class="border-b border-b-white/15 py-4">
-                    <div class="relative ">
-                        <div class="absolute left-0 bottom-1/2  translate-y-1/2"><img src="svg/list.svg" alt="List" class="w-5 h-5">
-                        </div>
-                        <div class="grid grid-cols-5 gap-4 pl-8 items-center">
-                            <div class="flex items-center gap-2 col-span-3">
-                                <img src="png/song-1.png" alt="Play" class="w-8 h-auto">
-                              <h3 class="line-clamp-1">  I'm Not Sorry I Was Having Fun, I'm Not...</h3>
-                            </div>
-                            <div class="">Future</div>
-                            <div class="">2:56</div>
-                        </div>
-                        <div class="flex space-x-2 absolute right-0 bottom-1/2  translate-y-1/2">
-                            <img src="svg/play-circle.svg" alt="Play" class="w-5 h-5">
-                            <img src="svg/trash.svg" alt="Trash" class="w-5 h-5">
-                        </div>
-                    </div>
-               </div>
+
              
             
             </section>
